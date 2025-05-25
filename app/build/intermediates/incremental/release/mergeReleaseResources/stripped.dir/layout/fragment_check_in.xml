@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前时间: 2023-05-25 12:00:00"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        
+    <TextView
+        android:id="@+id/textViewSelectHabit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择习惯:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewDateTime" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSelectHabit">
+        
+        <Spinner
+            android:id="@+id/spinnerHabit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@null"
+            android:popupBackground="@android:color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCheckIn"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:cardCornerRadius="140dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTapToCheckIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击打卡"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center" />
+            
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCheckIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:backgroundTint="@android:color/transparent"
+            app:elevation="0dp"
+            android:alpha="0"
+            android:contentDescription="打卡" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您今天还没有打卡"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/cardViewCheckIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

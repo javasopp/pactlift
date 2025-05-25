@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sopp.pactlift"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/sopp/.gradle/caches/transforms-3/2a3dfdc24bb3cbf0f63777d02c7a694a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:icon="@drawable/logo"
+14-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:7:9-38
+15        android:label="PactLift"
+15-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:8:9-33
+16        android:roundIcon="@drawable/logo"
+16-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:9:9-43
+17        android:supportsRtl="true"
+17-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:10:9-35
+18        android:theme="@style/Theme.PactLift" >
+18-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:11:9-46
+19        <activity
+19-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:13:9-20:20
+20            android:name="com.sopp.pactlift.MainActivity"
+20-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:14:13-41
+21            android:exported="true" >
+21-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:15:13-36
+22            <intent-filter>
+22-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:16:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:17:17-69
+23-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:17:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:18:17-77
+25-->/Users/sopp/Documents/cursor/PactLift/app/src/main/AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <provider
+29-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+30            android:name="androidx.startup.InitializationProvider"
+30-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+31            android:authorities="com.sopp.pactlift.androidx-startup"
+31-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+32            android:exported="false" >
+32-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+33            <meta-data
+33-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+34                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+34-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+35                android:value="androidx.startup" />
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/sopp/.gradle/caches/transforms-3/8ae19b1331f57b449dcb50a40229c4a2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+36            <meta-data
+36-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sopp/.gradle/caches/transforms-3/3dce35da1090785c41623bd5c0fcac06/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sopp/.gradle/caches/transforms-3/3dce35da1090785c41623bd5c0fcac06/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+38                android:value="androidx.startup" />
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sopp/.gradle/caches/transforms-3/3dce35da1090785c41623bd5c0fcac06/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+39        </provider>
+40    </application>
+41
+42</manifest>

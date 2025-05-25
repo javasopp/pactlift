@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/fragment_check_in.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/fragment_check_in.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/fragment_records.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/fragment_records.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/item_habit.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/item_habit.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/dialog_add_habit.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/dialog_add_habit.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/item_record.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/item_record.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/fragment_habit.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/fragment_habit.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-mergeReleaseResources-25:/layout/activity_main.xml",
+        "source": "com.sopp.pactlift.app-main-27:/layout/activity_main.xml"
+    }
+]

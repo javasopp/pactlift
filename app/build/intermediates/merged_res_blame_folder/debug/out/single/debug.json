@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/drawable_ic_launcher.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_fragment_habit.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/fragment_habit.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_item_record.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/item_record.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_item_habit.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/item_habit.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_fragment_records.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/fragment_records.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_fragment_check_in.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/fragment_check_in.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sopp.pactlift.app-merged_res-26:/layout_dialog_add_habit.xml.flat",
+        "source": "com.sopp.pactlift.app-main-28:/layout/dialog_add_habit.xml"
+    }
+]

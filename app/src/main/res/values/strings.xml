@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PactLift</string>
+    <string name="tab_habits">习惯</string>
+    <string name="tab_checkin">打卡</string>
+    <string name="tab_records">记录</string>
+    <string name="tab_stats">统计</string>
+    
+    <!-- 主界面 -->
+    <string name="title_habits">我的习惯</string>
+    <string name="add_habit">添加习惯</string>
+    <string name="check_in">打卡</string>
+    <string name="finish_habit">结束</string>
+    
+    <!-- 习惯设置 -->
+    <string name="habit_name">习惯名称</string>
+    <string name="habit_description">描述</string>
+    <string name="habit_start_date">开始日期</string>
+    <string name="habit_end_date">结束日期（可选）</string>
+    <string name="habit_frequency">频率</string>
+    <string name="daily">每天</string>
+    <string name="weekly">每周</string>
+    <string name="custom">自定义</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    
+    <!-- 打卡记录 -->
+    <string name="no_records">暂无打卡记录</string>
+    <string name="current_streak">当前连续打卡: %d 天</string>
+    <string name="best_streak">最长连续打卡: %d 天</string>
+    <string name="total_checkins">总打卡次数: %d 次</string>
+    <string name="completion_rate">完成率: %.1f%%</string>
+    
+    <!-- 语音助手反馈 -->
+    <string name="checkin_success">打卡成功！</string>
+    <string name="checkin_failure">打卡失败，请稍后重试</string>
+    <string name="no_habits_to_checkin">您还没有设置需要打卡的习惯</string>
+</resources> 
